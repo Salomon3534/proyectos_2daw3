@@ -15,8 +15,14 @@
     const btn_bg_chang = document.getElementById("chng_bg_color")
 
     btn_bg_chang.addEventListener("click",
-        function() {
-                document.bgColor = Math.random()
+        function () {
+            document.bgColor = Math.random()
+        }
+    )
+
+    btn_tit_chng.addEventListener("click",
+        function () {
+            title.style.textDecorationColor = Math.random()
         }
     )
 
