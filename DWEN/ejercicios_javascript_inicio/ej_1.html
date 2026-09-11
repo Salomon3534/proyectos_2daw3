@@ -6,7 +6,7 @@
 </head>
 <body>
     <button id="action_button">i will greet you</button>
-    <p id="message"></p>
+    <p id="message">hallo</p>
 
 
     <script>
@@ -18,7 +18,7 @@
         action_button.addEventListener("click",
             function () {
                 namename = prompt("gimme your name, scallywag! YARRRRR!")
-                alert("Yarr name iss this: " + namename + "YARRR! SHIVER ME TINBERS!!!!!")
+                message.text = "Yarr name iss this: " + namename + " YARRR! SHIVER ME TINBERS!!!!!"
             }
         )
     </script>
